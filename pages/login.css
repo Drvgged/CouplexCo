@@ -253,3 +253,12 @@ font-weight: 600;
 .login-register a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    .contact-form input,
+    .contact-form textarea {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }

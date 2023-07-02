@@ -69,3 +69,31 @@ header {
     transform-origin: left;
     transform: scaleX(1);
 }
+
+section.services {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  section.services h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #162938;
+  }
+  
+  section.services ul {
+    list-style: none;
+    padding-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  section.services li {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    section.services h1 {
+      font-size: 24px;
+    }
+  }

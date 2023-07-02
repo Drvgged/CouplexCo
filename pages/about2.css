@@ -78,6 +78,10 @@ body {
     text-align: center;
   }
   
+  .aboutus h1 {
+    color: #162938;
+  }
+
   .aboutus h1,
   .aboutus p {
     padding-top: 18px;
