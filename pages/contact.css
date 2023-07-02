@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(pages/img/background3.jpg) no-repeat;
+    background: url(img/background3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -70,3 +70,57 @@ header {
     transform: scaleX(1);
 }
 
+section#contact {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  section#contact h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  section#contact p {
+    margin-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .contact-form textarea {
+    height: 120px;
+  }
+  
+  .contact-form button {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e65100;
+  }
+  
+  
+  
+  
+  
+  
+  
