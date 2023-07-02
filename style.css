@@ -274,7 +274,26 @@ font-weight: 600;
     text-decoration: underline;
 }
 
-#about h1 {
+#aboutus {
+    padding: 10px 331px 10px 0;
+}
+
+#aboutus h1 {
     font-size: 50px;
-    padding-bottom: 15px;
+}
+
+#whychu {
+    padding: 0 331px 0 0;
+}
+
+#whychu h1 {
+    padding: 10px 0 10px;
+}
+
+#whychu li {
+    list-style-type: circle;
+}
+
+@media (max-width:600px){
+
 }
