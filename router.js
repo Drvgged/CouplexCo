@@ -7,7 +7,7 @@ const route = (event) => {
 
 const routes = {
     "/": "/index.html",
-    "/about": "/pages/AboutUs.html",
+    "/about": "/pages/about.html",
     "/services": "/pages/services.html",
     "/contact": "/pages/contact.html"
 };
@@ -16,7 +16,7 @@ const handleLocation = async () => {
     const path = window.location.pathname;
     const route = routes[path] || routes[404];
     const html = await fetch(route).then((data) => data.text());
-    document.getElementById("presentation").innerHTML = html;
+    document.getElementById("main-page").innerHTML = html;
 };
 
 window.onpopstate = handleLocation;
