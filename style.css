@@ -84,6 +84,8 @@ header {
 
 #welcome p {
     font-size: 18px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 @media screen and (max-width: 768px) {
